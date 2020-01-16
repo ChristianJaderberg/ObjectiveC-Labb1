@@ -16,6 +16,7 @@
 		D9439F3E23C8B0600056DA8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9439F3D23C8B0600056DA8E /* main.m */; };
 		D9439F4823C8B0610056DA8E /* Labb1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9439F4723C8B0610056DA8E /* Labb1Tests.m */; };
 		D9439F5323C8B0610056DA8E /* Labb1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9439F5223C8B0610056DA8E /* Labb1UITests.m */; };
+		D9439F6223CC9F9F0056DA8E /* BonusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9439F6123CC9F9E0056DA8E /* BonusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D9439F4E23C8B0610056DA8E /* Labb1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Labb1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9439F5223C8B0610056DA8E /* Labb1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labb1UITests.m; sourceTree = "<group>"; };
 		D9439F5423C8B0610056DA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9439F6023CC9F9E0056DA8E /* BonusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BonusViewController.h; sourceTree = "<group>"; };
+		D9439F6123CC9F9E0056DA8E /* BonusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonusViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				D9439F3923C8B0600056DA8E /* LaunchScreen.storyboard */,
 				D9439F3C23C8B0600056DA8E /* Info.plist */,
 				D9439F3D23C8B0600056DA8E /* main.m */,
+				D9439F6023CC9F9E0056DA8E /* BonusViewController.h */,
+				D9439F6123CC9F9E0056DA8E /* BonusViewController.m */,
 			);
 			path = Labb1;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9439F3323C8B05B0056DA8E /* ViewController.m in Sources */,
+				D9439F6223CC9F9F0056DA8E /* BonusViewController.m in Sources */,
 				D9439F2D23C8B05B0056DA8E /* AppDelegate.m in Sources */,
 				D9439F3E23C8B0600056DA8E /* main.m in Sources */,
 				D9439F3023C8B05B0056DA8E /* SceneDelegate.m in Sources */,
@@ -440,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y5XX2CJB7;
 				INFOPLIST_FILE = Labb1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y5XX2CJB7;
 				INFOPLIST_FILE = Labb1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
